@@ -18,9 +18,9 @@ public class TestJPA {
 
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
-		//Elever elever1 = new Elever("Marcus", "Andersson", "Teknikhogskolan", 2);
-		//Elever elever1 = new Elever("Bjorn", "Andersson", "Folkhogskolan", 1);
-		//em.persist(elever1);
+		// Elever elever1 = new Elever("Marcus", "Andersson", "Teknikhogskolan", 2);
+		// Elever elever1 = new Elever("Bjorn", "Andersson", "Folkhogskolan", 1);
+		// em.persist(elever1);
 
 		Query q = em.createQuery("select elever from Elever elever");
 

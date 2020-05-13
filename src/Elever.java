@@ -4,11 +4,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
-  * @author Danijela
-  */
+ * @author Danijela
+ */
 
 @Entity
-public class Elever implements java.io.Serializable{
+public class Elever implements java.io.Serializable {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
@@ -16,9 +17,18 @@ public class Elever implements java.io.Serializable{
 	private String surname;
 	private String skola;
 	private int klass;
-	
-	public Elever() {}
-	
+
+	public Elever() {
+	}
+
+	/**
+	 * @author danijela
+	 * 
+	 * @param firstName
+	 * @param surname
+	 * @param skola
+	 * @param klass
+	 */
 	public Elever(String firstName, String surname, String skola, int klass) {
 		super();
 		this.firstName = firstName;
@@ -26,8 +36,8 @@ public class Elever implements java.io.Serializable{
 		this.skola = skola;
 		this.klass = klass;
 	}
-	
+
 	public String toString() {
-		return "Elev: " + this.firstName + " " + this.surname+ " "+this.skola+ " "+this.klass;
+		return "Elev: " + this.firstName + " " + this.surname + " " + this.skola + " " + this.klass;
 	}
 }
