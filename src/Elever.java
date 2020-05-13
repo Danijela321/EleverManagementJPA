@@ -4,10 +4,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * 
- * @author Danijela
- *
- */
+  * @author Danijela
+  */
 
 @Entity
 public class Elever implements java.io.Serializable{
