@@ -19,8 +19,8 @@ public class TestJPA {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 		
-		 Elever elever1 = new Elever("Frank20", "Andersson", "Teknikhogskolan", 2);
-		 Elever elever2 = new Elever("Black20", "Andersson", "Folkhogskolan", 1);
+		 Elever elever1 = new Elever("Frank35", "Andersson", "Teknikhogskolan", 2);
+		 Elever elever2 = new Elever("Black35", "Andersson", "Folkhogskolan", 1);
 		 em.persist(elever1);
 		 em.persist(elever2);
 
