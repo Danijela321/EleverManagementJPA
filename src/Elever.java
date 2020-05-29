@@ -37,6 +37,9 @@ public class Elever implements java.io.Serializable {
 		this.klass = klass;
 	}
 
+	/**
+	 * @author danijela
+	 */
 	public String toString() {
 		return "Elev: " + this.firstName + " " + this.surname + " " + this.skola + " " + this.klass;
 	}
