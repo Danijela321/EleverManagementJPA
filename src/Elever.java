@@ -24,10 +24,10 @@ public class Elever implements java.io.Serializable {
 	/**
 	 * @author danijela
 	 * 
-	 * @param firstName
-	 * @param surname
-	 * @param skola
-	 * @param klass
+	 * @param firstName fornamn
+	 * @param surname	efternamn
+	 * @param skola	skola
+	 * @param klass klass
 	 */
 	public Elever(String firstName, String surname, String skola, int klass) {
 		super();
